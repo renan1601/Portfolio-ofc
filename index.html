@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renan de Oliveira</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+        h1{
+            color: rgb(0, 4, 255);
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 60px;
+            background-color: rgb(98, 110, 161);
+            color: rgb(255, 255, 255);
+        }
+        ul li{
+            list-style-type: none;
+        }
+        header ul{
+            display: flex;
+            gap: 30px;
+        }
+        header a{
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+        }
+        .logo{
+            color: rgb(255, 255, 255);
+        }
+        .section{
+            border-bottom: 2px solid #999999;
+            display: flex;
+            justify-content: space-around;
+            padding: 20px 60px;
+        }
+        .meio{
+            text-align: center;
+            width: 100%;
+            padding: 70px;
+            background-color: rgb(43, 75, 255);
+        }
+        .direita img{
+            width: 300px;
+            box-shadow: 20px 20px 20px rgb(0, 4, 255);
+            border-radius: 30px;
+        }
+        .direita, .esquerda{
+            width: 50vw;
+        }
+        .projeto{
+            width: 29%;
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(0, 102, 255);
+            gap: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+        #projetos{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+            ;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <div class="logo">
+                <h1>Renan de Oliveira</h1>
+        </div>
+            <nav>
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#Sobre">Sobre mim</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" id="navbarDropdowMenulink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Projetos
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdowMenulink">
+                            <a href="">1° trimestre</a>
+                            <a href="">2° trimestre</a>
+                            <a href="">3° trimestre</a>
+                        </div>   
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="section" id="#Home">
+            <div class="esquerda">
+                <h1>Bem vindo!!</h1>
+                <p>Esse é meu portfólio do curso desenvolvimentos de sistemas no Senai.</p>
+            </div>
+            <div class= "direita">
+                <img src="https://i.pinimg.com/originals/05/c7/d6/05c7d6f684b64cba1a5748baa87717ce.png" alt="">
+            </div>
+        </div>
+        <!-- final de sessão home -->
+
+
+        <!-- inicio de sessão sobre -->
+        <div class="section" id="#Sobre">
+            <div class="meio">
+                <h2>Sobre mim</h2>
+                <p>
+                    Olá, meu nome é Renan, tenho 16 anos e atualmente estudo na escola Sesi com técnico integrado em desenvolvimento de sistemas. <br>
+                </p>
+
+
+            </div>
+        </div>
+        <!-- final de sessão sobre -->
+
+
+        <!-- inicio de sessão projetos -->
+        <div class="section" id="#Projetos">
+            <div class="projeto">
+                <img src="https://media.licdn.com/dms/image/D4D12AQHdA2__YPkgNw/article-cover_image-shrink_720_1280/0/1681555878627?e=2147483647&v=beta&t=Ad_FaCTUecvQO6SF94_EcklV4VYXGK3-VXuEtdFlWwo" alt="">
+                <h3>Projeto 1</h3>
+                <p>Projeto sobre componentes de computadores.</p>
+            </div>
+        </div>
+        <div class="projeto">
+            <img src="https://media.licdn.com/dms/image/D4D12AQHdA2__YPkgNw/article-cover_image-shrink_720_1280/0/1681555878627?e=2147483647&v=beta&t=Ad_FaCTUecvQO6SF94_EcklV4VYXGK3-VXuEtdFlWwo" alt="">
+            <h3>Projeto 1</h3>
+            <p>Projeto sobre componentes de computadores.</p>
+        </div>
+    </div>
+    <div class="projeto">
+        <img src="https://media.licdn.com/dms/image/D4D12AQHdA2__YPkgNw/article-cover_image-shrink_720_1280/0/1681555878627?e=2147483647&v=beta&t=Ad_FaCTUecvQO6SF94_EcklV4VYXGK3-VXuEtdFlWwo" alt="">
+        <h3>Projeto 1</h3>
+        <p>Projeto sobre componentes de computadores.</p>
+    </div>
+</div>
+        <!-- final de sessão projetos -->
+    </main>
+</body>
+</html>
+
+
